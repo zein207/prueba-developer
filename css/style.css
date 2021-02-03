@@ -121,6 +121,8 @@ a {
     align-items: center;
 }
 
+/*RECETAS*/
+
 .recipe {
     width: 100%;
     display: flex;
@@ -164,6 +166,8 @@ a {
     background:#EBA904;
     margin-top: 3px;
 }
+
+/*INFO*/
 
 .container__info {
     width: 90%;
@@ -230,4 +234,37 @@ a {
 .personage__episodes__list li{
     font-size: 0.8em;
     margin: 10px 0;
+}
+
+@media screen and (min-width: 1200px) {
+
+    .recipe {
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .recipe__text {
+        width: 30%;
+        text-align: left;
+        margin-top: 190px;
+    }
+
+    .recipe:last-child {
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .recipe__text__title {
+        font-size: 48px;
+        font-family: MuseoSans-700;
+    }
+
+    .recipe__text__paragraph {
+        font-size: 14px;
+    }
+
+    .recipe__text__link {
+        font-size: 14px;
+    }
 }
