@@ -179,6 +179,7 @@ a {
 
 .questions {
     margin-bottom: 40px;
+    width: 100%;
 }
 
 .questions__item {
@@ -214,6 +215,7 @@ a {
 
 .personage__title {
     margin-bottom: 10px;
+    font-family: MuseoSans-700;
 }
 
 .personage__info {
@@ -287,9 +289,13 @@ a {
     }
 
     .navbar__menu__link {
-        font-family: MuseoSans-500;
+        font-family: MuseoSans-700;
         color: #000;
         font-size: 15px;
+    }
+
+    .navbar__menu__link:hover {
+        color: #777;
     }
 
     .navbar__icons {

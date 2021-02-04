@@ -124,8 +124,8 @@
 
             <ul class="questions">
                 <li class="questions__item">
-                    <h2 class="questions__item__title">Pregunta 1 <span class="pointer">-</span></h2>
-                    <p class="questions__item__text">
+                    <h2 class="questions__item__title">Pregunta 1 <span class="pointer">+</span></h2>
+                    <p class="questions__item__text paragraph desactived">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nulla distinctio, aut vitae consectetur, facere necessitatibus quibusdam, natus dolorum soluta blanditiis numquam consequatur sint totam quaerat magni earum nostrum sapiente quia cumque velit laboriosam repellendus autem tempora. Sed qui explicabo laboriosam voluptatibus ducimus aspernatur similique cupiditate soluta veritatis perferendis molestiae ipsam asperiores amet nemo, in neque rerum sit officiis, tenetur nesciunt pariatur ipsa, natus recusandae hic! Aliquam, autem aperiam vitae necessitatibus exercitationem officiis illum, reiciendis quisquam odio natus velit tempora!
 
                     </p>
@@ -133,7 +133,7 @@
                 </li>
                 <li class="questions__item">
                     <h2 class="questions__item__title">Pregunta 2 <span class="pointer">+</span></h2>
-                    <p class="questions__item__text desactived">
+                    <p class="questions__item__text paragraph desactived">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nulla distinctio, aut vitae consectetur, facere necessitatibus quibusdam, natus dolorum soluta blanditiis numquam consequatur sint totam quaerat magni earum nostrum sapiente quia cumque velit laboriosam repellendus autem tempora. Sed qui explicabo laboriosam voluptatibus ducimus aspernatur similique cupiditate soluta veritatis perferendis molestiae ipsam asperiores amet nemo, in neque rerum sit officiis, tenetur nesciunt pariatur ipsa, natus recusandae hic! Aliquam, autem aperiam vitae necessitatibus exercitationem officiis illum, reiciendis quisquam odio natus velit tempora!
 
                     </p>
@@ -142,7 +142,7 @@
                 </li>
                 <li class="questions__item">
                     <h2 class="questions__item__title">Pregunta 3 <span class="pointer">+</span></h2>
-                    <p class="questions__item__text desactived">
+                    <p class="questions__item__text paragraph desactived">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nulla distinctio, aut vitae consectetur, facere necessitatibus quibusdam, natus dolorum soluta blanditiis numquam consequatur sint totam quaerat magni earum nostrum sapiente quia cumque velit laboriosam repellendus autem tempora. Sed qui explicabo laboriosam voluptatibus ducimus aspernatur similique cupiditate soluta veritatis perferendis molestiae ipsam asperiores amet nemo, in neque rerum sit officiis, tenetur nesciunt pariatur ipsa, natus recusandae hic! Aliquam, autem aperiam vitae necessitatibus exercitationem officiis illum, reiciendis quisquam odio natus velit tempora!
 
                     </p>
@@ -154,19 +154,15 @@
 
                 <h2 class="personage__title">Rick and Morty</h2>
                 <div class="personage__info">
-                    <img src="./assets/img/no-image.png" alt="Sin foto">
+                    <img id="img" src="./assets/img/no-image.png" alt="Sin foto">
                     <div class="personage__info__container">
-                        <p class="personage__text">Nombre: <span>Rick</span></p>
-                        <p class="personage__text">Género: <span>Male</span></p>
+                        <p class="personage__text">Nombre: <span id="name">Rick</span></p>
+                        <p class="personage__text">Género: <span id="gender">Male</span></p>
                         <div class="personage__episodes">
     
                             <p class="personage__text">Primeros 5 episodios:</p>
-                            <ul class="personage__episodes__list">
-                                <li>Lorem ipsum dolor, sit amet consectetur adipisicing.</li>
-                                <li>Lorem ipsum dolor, sit amet consectetur adipisicing.</li>
-                                <li>Lorem ipsum dolor, sit amet consectetur adipisicing.</li>
-                                <li>Lorem ipsum dolor, sit amet consectetur adipisicing.</li>
-                                <li>Lorem ipsum dolor, sit amet consectetur adipisicing.</li>
+                            <ul id="episodesList" class="personage__episodes__list">
+                                
                             </ul>
                             
                         </div>
@@ -180,5 +176,6 @@
 
     </div>
     
+    <script src="./scripts/main.js"></script>
 </body>
 </html>
