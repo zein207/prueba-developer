@@ -222,6 +222,10 @@ a {
     flex-direction: column;
 }
 
+.personage__info img {
+    width: 100%;
+}
+
 .personage__text {
     font-family: MuseoSans-700;
     margin: 10px 0;
@@ -236,7 +240,65 @@ a {
     margin: 10px 0;
 }
 
+.desactived {
+    display: none;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+@media screen and (min-width: 800px) {
+
+    .personage__info {
+        flex-direction: row;
+    }
+
+    .personage__info img {
+        width: 350px;
+        height: 350px;
+        margin-right: 20px;
+    }
+
+}
+
 @media screen and (min-width: 1200px) {
+
+    
+    .navbar {
+        height: 74px;
+        border-bottom: 1px solid  #EAE8E8;
+    }
+
+    .navbar__logo {
+        width: auto;
+    }
+
+    .navbar__logo img {
+        width: 188px;
+    }
+
+    .navbar__menu {
+        display: flex;
+    }
+
+    .navbar__menu__item {
+        margin: 0 15px;
+    }
+
+    .navbar__menu__link {
+        font-family: MuseoSans-500;
+        color: #000;
+        font-size: 15px;
+    }
+
+    .navbar__icons {
+        width: auto;
+    }
+
+    .icon__menu {
+        display: none;
+    }
 
     .recipe {
         flex-direction: row;
@@ -248,6 +310,7 @@ a {
         width: 30%;
         text-align: left;
         margin-top: 190px;
+        margin-right: 70px;
     }
 
     .recipe:last-child {
@@ -267,4 +330,23 @@ a {
     .recipe__text__link {
         font-size: 14px;
     }
+
+    .logo img {
+        width: 196px;
+        margin: 46px 0 30px;
+    }
+
+    .container__info {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .questions {
+        width: 40%;
+    }
+
+    .personage {
+        width: 50%;
+    }
+
 }
